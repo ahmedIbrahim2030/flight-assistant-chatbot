@@ -1,0 +1,22 @@
+{
+  "name": "open-ai-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-strip-types --env-file=.env src/index.ts",
+    "start:flight-assistant": "node --experimental-strip-types --env-file=.env src/flightAssistance.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "openai": "^7.32.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
